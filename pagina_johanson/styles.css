@@ -284,6 +284,11 @@ button {
     .div3 {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .div2buton{
+        width:100px;
+        height:60px;
+        font-size:0.8rem;
+    }
     h2{
         font-size: 25px;
     }
