@@ -672,9 +672,49 @@ footer {
 
 @media (max-width: 1100px) {
     header {
-        grid-template-columns: 1.5fr 2fr 1fr 2fr;
-
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+        padding: 0px;
+        margin: 0px;
+        height: 30px;
     }
+
+    .hedboton {
+        width: 70px;
+        font-size: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .constructor button {
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .constructor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .colmuna4-2 i {
+        color: white;
+        padding: 0px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .colmuna4-3 i {
+        color: white;
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .hero {
+        height: 400px;
+        clip-path: ellipse(100% 100% at 50% 0%);
+    }
+
 
     .menu {
         padding: 0px;
@@ -775,19 +815,7 @@ footer {
         height: 30px;
     }
 
-    .hedboton {
-        width: 80px;
-        font-size: 16px;
-    }
-
-    .constructor button {
-        width: 150px;
-        font-size: 16px;
-    }
-
-    .hero {
-        height: 500px;
-    }
+ 
 
     .hero h1 {
         font-size: 42px;
@@ -858,17 +886,45 @@ footer {
     header {
         grid-template-columns: 1fr 2fr 1fr 2fr;
         padding: 0px;
+        margin: 0px;
+        height: 30px;
     }
 
-    .hedboton {
+       .hedboton {
+        width: 60px;
+        font-size: 10px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .constructor button {
         width: 80px;
+        height: 20px;
         font-size: 10px;
         padding: 0px 10px 0px 10px;
     }
 
-    .constructor button {
-        width: 100px;
+    .constructor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .colmuna4-2 i {
+        color: white;
+        padding: 0px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .colmuna4-3 i {
+        color: white;
+        padding: 0px;
         font-size: 10px;
+    }
+
+    .hero {
+        height: 400px;
+        clip-path: ellipse(100% 100% at 50% 0%);
     }
 
     .submenu {
@@ -927,34 +983,7 @@ footer {
         height: 20px;
     }
 
-    .constructor {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 0px 0px 0px 0px;
-    }
 
-    .constructor button {
-        width: 100px;
-        font-size: 20px;
-    }
-
-    header {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        ;
-
-    }
-
-    .hedboton {
-        width: 80px;
-        font-size: 15px;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .hero {
-        height: 400px;
-        clip-path: ellipse(100% 100% at 50% 0%);
-    }
 
     .categoria1 {
         display: flex;
@@ -1077,9 +1106,6 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    header {
-        grid-template-columns: 1fr 2fr;
-    }
 
     footer {
         grid-template-columns: 1fr 1fr 1fr;
