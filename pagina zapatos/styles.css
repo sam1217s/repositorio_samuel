@@ -106,8 +106,8 @@ header {
 }
 
 .menu {
-    width: 90%;
-    padding-left: 10%;
+    width: 95%;
+    padding-left: 5%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -167,7 +167,7 @@ header {
 
 .yourmail {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-left: 30px;
 
 }
@@ -850,9 +850,9 @@ footer {
 @media (max-width: 780px) {
     .menu {
         display: grid;
-        width: 95%;
+        width: 98%;
         padding: 0px;
-        padding-left: 5%;
+        padding-left: 2%;
     }
 
     header {
@@ -873,9 +873,9 @@ footer {
 
     .submenu {
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 30% 68%;
         gap: 10px;
-        padding-left: 10px;
+        padding-left: 2%;
     }
 
     .principal {
@@ -1006,7 +1006,7 @@ footer {
 
     .filter-options2 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         font-size: 10px;
     }
 
@@ -1028,7 +1028,7 @@ footer {
     }
 
     .filters {
-        grid-template-columns: 20% 55% 25%;
+        grid-template-columns: 1fr 2fr 1fr;
     }
 
     .filters h2 {
@@ -1115,9 +1115,17 @@ footer {
         padding-left: 5%;
     }
 
+    .submenu {
+        display: grid;
+        grid-template-columns: 33% 66%;
+        gap: 5px;
+        padding-left: 0px;
+    }
+
     header {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr 1fr 2fr;
         padding: 0px;
+        height: 30px;
     }
 
     .hedboton {
@@ -1156,15 +1164,188 @@ footer {
     }
 
     .sizes button {
-        width: 30px;
+        width: 50px;
         height: 30px;
     }
 
-    .sesion1 h3,
-    .sesion2 h3 {
-        color: rgb(91, 91, 91);
-        font-size: 8px;
-        padding: 10px 0px 10px 10px;
+    .products {
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
     }
 
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+    .shoemen {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin: 0px;
+        justify-items: left;
+    }
+
+    .filters {
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    .filter-options2 {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-options button {
+        margin: 0px 5px 0px 5px;
+        font-size: 8px;
+        width: auto;
+        height: 30px;
+        border: none;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .subcategoria p {
+        font-size: 9px;
+    }
+
+    .categoria1,
+    .categoria2,
+    .categoria3 {
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+
+    .categoria4 {
+        padding: 0px;
+        padding-bottom: 0px;
+    }
+
+    .sizes {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .colores {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .shop button {
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        border: none;
+        font-size: 15px;
+        padding: 5px 5px;
+        cursor: pointer;
+        width: 100px;
+        border-radius: 50px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .shop {
+        width: 60px;
+        height: 20px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-75%);
+        top: -14px;
+    }
+
+    .sesion1 h3,
+    .sesion2 h3,
+    .sesion3 h2,
+    .sesion3 p {
+        color: rgb(91, 91, 91);
+        font-size: 5px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .mailfooter h3 {
+        padding: 0px;
+        color: rgb(91, 91, 91);
+    }
+
+    .termsandconditions h3 {
+        color: rgb(91, 91, 91);
+        font-size: 5px;
+    }
+
+    .constructor i {
+        color: white;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .constructor button {
+        width: 50px;
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .hedboton {
+        width: 20px;
+        font-size: 5px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .colmuna4-2 i {
+        color: white;
+        padding: 0px;
+        padding-right: 10px;
+        font-size: 7px;
+    }
+
+    .colmuna4-3 i {
+        color: white;
+        padding: 0px;
+        font-size: 7px;
+    }
+
+    .constructor button {
+        width: 50px;
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .constructor i {
+        color: white;
+        font-size: 12px;
+        padding-top: 2px;
+        padding-left: 10px;
+    }
+
+    .hero {
+        height: 200px;
+        clip-path: ellipse(100% 100% at 50% 0%);
+    }
+}
+
+@media (max-width: 500px) {
+    .menu {
+        display: grid;
+        width: 95%;
+        padding: 0px;
+        padding-left: 5%;
+    }
+
+    .submenu {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 5px;
+        padding-left: 0px;
+    }
+
+    header {
+        grid-template-columns: 1fr 2fr 1fr 2fr;
+        padding: 0px;
+        height: 30px;
+    }
+
+    .sizes button {
+        width: 30px;
+        height: 30px;
+    }
 }
